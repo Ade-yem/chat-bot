@@ -1,0 +1,35 @@
+*,
+*,*:before,*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, serif;
+}
+html
+body {
+    height: 100%;
+    background-color: rgba(43, 9, 43, 0.781);
+}
+main {
+    flex: 1 0 auto;
+}
+input,textarea {
+    outline: none
+}
+/* .image-inverted {
+    filter: invert(100%);
+} */
+
+.navlink {
+    text-decoration: none;
+    margin: auto 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
